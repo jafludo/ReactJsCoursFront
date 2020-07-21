@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="css/slicknav.min.css"/>
+<link rel="stylesheet" type="text/css" href="poubelle.css">
+
+<head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="poubelle.css">
+    <script src="style.js"></script>
+    <script src="exec.js"></script>
+</head>
+<body>
+
+<div class="login-reg-panel" id="connected" style="display: none;">
+
+
+    <div class="register-info-box">
+        <h4>Looking to create a project or assign your group to one ?</h4>
+        <a id="label-login" href="ProjectDisplay.html">Project Display</a>
+    </div>
+
+    <div class="white-panel">
+        <div class="register-show">
+            <h4 id="userconnected">It seems like something went wrong...</h4> <br>
+            <button type="button" class="btn btn-success btn-block"><a href="GroupMain.html">Manage group of work</a></button><br>
+            <button type="button" class="btn btn-success btn-block"><a href="ProjectDisplay.html">Manage project of work</a></button><br>
+            <button id="stopChrono" type="button" class="btn btn-danger btn-block"><a href="chrono.html">Start timing yourself for your project</a></button>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block"><a href="UserStory.html">Time yourself on some userstories</a></button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"><a href="TimerDisplay.html">Your global timer between your different project</a></button>
+    </div>
+</div>
+<div id="notconnected" style="display: inline-block;">
+    <h3>You're not connected, you can create an account <a href="register.html">right here</a>.</h3>
+</div>
+<script src="UserPage.js"></script>
+</body>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+
+<head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="UserStory.css">
+    <script src="style.js"></script>
+</head>
+<body>
+
+<div class="login-reg-panel" id="connected" style="display: none;">
+
+
+
+        <div class="login-show">
+                <h5>Create a UserStory</h5>
+                <input id="UserStoryName" type="text" placeholder="UserStory name">
+                <input id="DescriptionUserStory" type="text" placeholder="UserStory description">
+                <input id="TimeUserStory" type="number" placeholder="Time in minutes">
+            <br>
+                <input type="button" id="CREATE" value="CREATE"><br><br>
+            <button type="button" class="btn btn-secondary btn-lg btn-block"><a href="Userpage.html">Back to main page</a></button>
+        </div>
+
+
+    <div class="white-panel">
+
+
+            <ol class="listcolor" style="overflow:scroll;height: 100%">
+
+            </ol>
+
+
+    </div>
+
+</div>
+<div id="notconnected" style="display: inline-block;">
+    <h3>You're not connected, you can create an account <a href="register.html">right here</a>.</h3>
+</div>
+<script src="UserStory.js"></script>
+</body>

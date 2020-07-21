@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+<link rel="stylesheet" href="css/slicknav.min.css"/>
+<link rel="stylesheet" type="text/css" href="poubelle.css">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="poubelle.css">
+    <link rel="stylesheet" type="text/css" href="Chrono.css">
+    <script src="style.js"></script>
+    <script src="exec.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="login-reg-panel">
+
+
+    <div class="register-info-box">
+        <h4>Please select your project and then your group</h4>
+        <div class="listone">
+            <FORM>
+                <SELECT class="custom-dropdown__select custom-dropdown__select--white listmain" id="grouplist" name="nom" size="1">
+
+                </SELECT>
+            </FORM>
+        </div>
+        <div class="listtwo">
+            <FORM>
+                <SELECT class="custom-dropdown__select custom-dropdown__select--white listmain" id="projectlist" name="nom" size="1">
+
+                </SELECT>
+            </FORM>
+        </div>
+
+    </div>
+
+    <div class="white-panel">
+
+        <div class="register-show">
+            <h2>Looking for a project ?</h2>
+            <a id="label-login" href="ProjectDisplay.html">Project Display</a><br>
+
+            <button id="chrono" type="button" class="btn btn-success">Start chrono</button><br><br>
+            <label id="minutes">00</label>:<label id="seconds">00</label><br><br>
+            <!--<button id="stopChrono">Stop le chrono</button>-->
+            <button id="stopChrono" type="button" class="btn btn-danger">Stop chrono</button>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block"><a href="TimerDisplay.html">Your global timer between your different project</a></button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block"><a href="UserPage.html">Back to user page</a></button>
+    </div>
+</div>
+<script src="Chrono.js"></script>
+</body>
